@@ -24,7 +24,7 @@ def func_name(*args):
     for arg in args:
         code 
 '''
-### 키워드 인수(keywor argument): 함수(키워드=값), 함수(**딕셔너리), 순서 무관, 고정인수와 함께 사용시 고정변수 먼저 사용
+### 키워드 인수(keyword argument): 함수(키워드=값), 함수(**딕셔너리), 순서 무관, 고정인수와 함께 사용시 고정변수 먼저 사용
 '''
 def func_name(**kwargs):
     for k, v in kwargs.items():
