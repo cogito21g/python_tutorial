@@ -1,5 +1,5 @@
 # Operator
-## 산술 연산자: +, -, *, /, ?, //, **
+## 산술 연산자: +, -, *, /, ?, //, **, @
 
 print(f"----  산술 연산자 ----")
 
@@ -50,7 +50,16 @@ print("----NOT----")
 print(f"not {state}, result = {not state}")
 print(f"not {n_state}, result = {not n_state}")
 
-## 비트 연산자
+## 비트 연산자: &, |, ^, ~
+### bin(0b1101)
+
+print(f"---- 비트 연산자 ----")
+print(f"{bin(0b1001)} & {bin(0b1101)} = {bin(0b1001 & 0b1101)}")
+print(f"{bin(0b1001)} | {bin(0b1101)} = {bin(0b1001 | 0b1101)}")
+print(f"{bin(0b1001)} ^ {bin(0b1101)} = {bin(0b1001 ^ 0b1101)}")
+print(f"~{bin(0b1001)} = {bin(~0b1001)}")
+print(f"{bin(0b1001)} >> 2 = {bin(0b1001 >> 2)}")
+print(f"{bin(0b1001)} << 1 = {bin(0b1001 << 1)}")
 
 
 
