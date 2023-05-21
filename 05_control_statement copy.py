@@ -4,7 +4,6 @@
 ### if문: if ~ elif ~ else
 ### 중첩
 
-
 print("----if----")
 
 int_var = 14
@@ -59,8 +58,21 @@ print("----END----")
 
 print("----Break----")
 
+for i in range(10):
+    if i == 3:
+        break
+    print(f"Hello {i}")
+print("end for")
+
 print("----END----")
 
+
 print("----Continue----")
+
+for i in range(10):
+    if i == 3:
+        continue
+    print(f"Hello {i}")
+print("end for")
 
 print("----END----")
