@@ -1,6 +1,5 @@
 # class
 ## static method, class method
-## abstract class
 
 class Calc:
     PI = 3.14
