@@ -72,4 +72,7 @@ print(f"dict_data3 del dict_data3[new]: {dict_data3}")
 
 ## Tuple
 
+
+
 ## Set
+
